@@ -1,0 +1,8 @@
+#!/bin/sh
+
+while [ $# != 0 ]
+do
+ echo $1 >> 't/bin/bbout'
+ shift
+done
+
